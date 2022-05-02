@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{trip.destination}}{% endblock %}
+
+{% block body %}
+
+<a class="btn btn-primary" href="{{ path('trip_index')}}" role="button">Back to trips</a>
+<div class="container">
+  <div class="card mb-3">
+    <img src="{{trip.image}}" class="card-img-top" alt="img">
+      <div class="card-body">
+        <h5 class="card-title">{{trip.destination}}</h5>
+        <p class="card-text"><small class="text-muted">Durée du trip : {{trip.duree}} </small></p>
+        <p class="card-text"><small class="text-muted">Date de départ : {{ trip.created_at | date('d / m / y') }}</small></p>
+        <p class="card-text"><small class="text-muted">Description : <br>{{trip.description}}</p>
+      </div>
+  </div>
+</div>
+
+
+{% endblock %}

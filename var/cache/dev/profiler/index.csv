@@ -1,0 +1,16 @@
+873c73,127.0.0.1,GET,http://localhost:8000/,1650747576,,200
+eda9ef,127.0.0.1,GET,http://localhost:8000/,1650747665,,200
+296aa4,127.0.0.1,GET,http://localhost:8000/1,1650748017,,200
+cdad1c,127.0.0.1,GET,http://localhost:8000/1,1650748023,,200
+9028db,127.0.0.1,GET,http://localhost:8000/login,1650748025,,302
+42a663,127.0.0.1,GET,http://localhost:8000/admin/trip/,1650748026,,200
+501796,127.0.0.1,GET,http://localhost:8000/admin/trip/,1650748070,405d26,500
+405d26,127.0.0.1,GET,http://localhost:8000/admin/trip/,1650748070,,500
+ae2785,127.0.0.1,GET,http://localhost:8000/admin/trip/,1650748074,,200
+e23d64,127.0.0.1,GET,http://localhost:8000/admin/trip/,1650748085,,200
+59991f,127.0.0.1,GET,http://localhost:8000/logout,1650748087,,302
+a1b948,127.0.0.1,GET,http://localhost:8000/,1650748087,,200
+41787a,127.0.0.1,GET,http://localhost:8000/login,1650748089,,200
+a60b59,127.0.0.1,POST,http://localhost:8000/login,1650748093,,302
+c78d52,127.0.0.1,GET,http://localhost:8000/admin/trip/,1650748093,,200
+c8d9de,127.0.0.1,GET,http://localhost:8000/admin/trip/1,1650748096,,200
